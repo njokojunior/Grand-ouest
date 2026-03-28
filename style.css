@@ -9,16 +9,20 @@ body {
   /* background-color:var(--coleur-principal) ; */
 }
 
-a:hover,
-a:active {
-  font-weight: bold;
-}
+
 a {
   text-decoration: none;
 }
+
 a:link,
 a:visited {
   color: black;
+}
+
+a:hover,
+a:active {
+  font-weight: bold;
+  color: var(--coleur-principal);
 }
 .header {
   display: flex;
@@ -27,8 +31,8 @@ a:visited {
 }
 
 .logo {
-  height: 150px;
-  width: 150px;
+  /* height: 150px; */
+  width: 250px;
 }
 
 .menu {
