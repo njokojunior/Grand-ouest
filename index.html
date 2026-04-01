@@ -21,14 +21,47 @@
         </div>
       </header>
       <div class="header-text-block">
-        <p>
+        <h2 class="heading-secondary">
           Professionnel du Fret aérien et maritime entre la France et le
           Cameroun
-        </p>
+        </h2>
         <h1>
           FRET MARITIME, FRET AÉRIEN, FRET ACHAT, FRET TRANSFERT ET DÉMÉNAGEMENT
         </h1>
       </div>
     </div>
+    <main>
+      <section id="rendezVous" class="rendezVous">
+        <h3 class="titre-3">Prendre un rendez-vous</h3>
+
+        <form id="prendreRendezvous">
+          <input type="text" placeholder="Nom et Prenom*" />
+          <input type="text" placeholder="Votre numero*" />
+
+          <select id="services">
+            <option disabled selected value="true">
+              Selectionez un services
+            </option>
+            <option value="FA">Fret Aerien</option>
+            <option value="FM">Fret maritime</option>
+            <option value="FAC">Fret Achat</option>
+            <option value="FT">Fret Transfert</option>
+            <option value="FD">Fret Demenagement</option>
+          </select>
+          <select id="Ville">
+            <option disabled selected value="true">
+              Selectionnez une ville
+            </option>
+            <option value="PAR">Paris</option>
+            <option value="ILE">Ile-de-France</option>
+            <option value="NAN">Nante</option>
+            <option value="AGO">Agouleme</option>
+            <option value="RAN">Ranne</option>
+          </select>
+          <input type="email" placeholder="votre email" />
+          <button>booker un enlevement des colis</button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
