@@ -170,8 +170,7 @@ section.services p:nth-child(2){
 }
 
 .icon-box-container{
-
-  margin-top: 60px;
+  margin-top: 96px;
   display: flex;
   padding: 0 40px;
   gap: 20px;
@@ -192,7 +191,7 @@ section.services p:nth-child(2){
 
 .icon-box:hover{
   transform: translateY(-20px);
-  background-color: yellow;
+ 
 }
 
 .icon-box p{
@@ -203,6 +202,41 @@ section.services p:nth-child(2){
 .icon-box img{
   width: 70px;
 }
+
+.container-cta{
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn{
+  padding: 15px 20px;
+  font-weight: bold;
+  border: 1px solid black;
+}
+
+.btn.noir:link, .btn.noir:visited{
+  background-color: #000;
+  color: #fff;
+}
+
+.btn.noir:hover, .btn.noir:active,
+.btn.transparent:hover, .btn.transparent:active{
+   background-color: var(--coleur-principal);
+   border: 1px solid var(--coleur-principal);
+   color: #fff;
+}
+
+.grid-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+
+
 
 
 
