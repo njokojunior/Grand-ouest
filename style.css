@@ -16,8 +16,6 @@ body {
   /* background-color:var(--coleur-principal) ; */
 }
 
-
-
 a {
   text-decoration: none;
   transition: all 0.3s;
@@ -442,42 +440,41 @@ img.icon-list {
   margin-bottom: 32px;
 }
 
-
-
 /* SCREEN LESS THAN 600px */
 @media only screen and (max-width: 600px) {
-
-  body{
+  body {
     font-size: 12px;
   }
 
-  body h1{
+  h1 {
     font-size: 24px;
   }
 
-  .header-text-block{
+  .header-text-block {
     width: 60%;
   }
 
-  .nav{
+  .nav {
     display: none;
   }
 
-  .menu{
+  .menu {
     min-width: 100%;
     max-width: 100%;
   }
 
-  .icon-box-container, .etapes-fonction{
+  .icon-box-container,
+  .etapes-fonction,
+  form#prendreRendezvous,
+  .footer {
     flex-wrap: wrap;
   }
 
-  form#prendreRendezvous {
+  /* form#prendreRendezvous {
     flex-wrap: wrap;
   }
 
-  .footer{
+  .footer {
     flex-wrap: wrap;
-  }
-  
+  } */
 }
